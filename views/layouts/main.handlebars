@@ -12,10 +12,41 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
+    <link href="../../public/style/style.css">
 </head>
+
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <h1>NodeJS+Express+Handlebars</h1>
+        <nav class="navbar navbar-expand-lg bg-warning">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link fs-4" aria-current="page" href="/">首頁</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-4" aria-current="page" href="/about">關於我們</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-4" aria-current="page" href="/news">最新消息</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-4" aria-current="page" href="/product">產品專區</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-4" aria-current="page" href="/contact">聯絡我們</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
         {{{body}}}
     </div>
 </body>
